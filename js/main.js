@@ -158,7 +158,7 @@ $(document).delegate( '.tray .item', 'click', function() {
 
 $(document).delegate( '.coin_return', 'click', function() {
     $(this).addClass('close-t');
-    $(document).delegate( '.coin_return').find('.coin').remove();
+    $('.coin_return .coin').remove();
     if($('.tray').html() == ''){
         $('#res-box div').html('');
     }
