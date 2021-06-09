@@ -2,4 +2,5 @@
 jquery vending machine
 
 HOW TO RUN 
-> Double click the index.html
+1.Clone
+2.Double click the index.html
