@@ -173,6 +173,12 @@ $form.submit(function(e) {
     var coins = parseFloat($input_coinage.val());
     
     if(item.find('.item').attr('data-stock') != 0) {
+        if($('.tray').hasClass('close-t')){
+            $('.tray').removeClass('close-t'); 
+        }
+        if($('.coin_return').hasClass('close-t')){
+            $('.coin_return').removeClass('close-t'); 
+        }
         if (!item.length) {
             $input_selection.addClass('invalid');
             setTimeout(function() {
